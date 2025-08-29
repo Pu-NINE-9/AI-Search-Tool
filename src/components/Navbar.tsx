@@ -43,35 +43,35 @@ const Navbar = (props: Props) => {
         </div>
         {/* menu */}
         <div className="flex flex-col items-center justify-center w-full gap-4">
-          <div className="flex w-full h-10 items-center gap-4 cursor-pointer px-4 py-2 rounded-lg hover:bg-white/30 transition-all group">
+          <div className="flex w-full h-10 items-center gap-4 cursor-pointer px-4 py-2 rounded-lg hover:bg-white/30 transition-all group" onClick={() => handleClick('AI热门工具')}>
             <WhatshotIcon className="text-rose-500 group-hover:text-rose-700" />
             <p className="tracking-widest text-rose-700 group-hover:text-rose-900">AI 热门工具</p>
           </div>
-          <div className="flex w-full h-10 items-center gap-4 cursor-pointer px-4 py-2 rounded-lg hover:bg-white/30 transition-all group">
+          <div className="flex w-full h-10 items-center gap-4 cursor-pointer px-4 py-2 rounded-lg hover:bg-white/30 transition-all group" onClick={() => handleClick('AI对话聊天')}>
             <ChatIcon className="text-rose-500 group-hover:text-rose-700" />
             <p className="tracking-widest text-rose-700 group-hover:text-rose-900">AI 对话聊天</p>
           </div>
-          <div className="flex w-full h-10 items-center gap-4 cursor-pointer px-4 py-2 rounded-lg hover:bg-white/30 transition-all group">
+          <div className="flex w-full h-10 items-center gap-4 cursor-pointer px-4 py-2 rounded-lg hover:bg-white/30 transition-all group" onClick={() => handleClick('AI文本工具')}>
             <EditNoteIcon className="text-rose-500 group-hover:text-rose-700" />
             <p className="tracking-widest text-rose-700 group-hover:text-rose-900">AI 文本工具</p>
           </div>
-          <div className="flex w-full h-10 items-center gap-4 cursor-pointer px-4 py-2 rounded-lg hover:bg-white/30 transition-all group">
+          <div className="flex w-full h-10 items-center gap-4 cursor-pointer px-4 py-2 rounded-lg hover:bg-white/30 transition-all group" onClick={() => handleClick('AI编程工具')}>
             <CodeIcon className="text-rose-500 group-hover:text-rose-700" />
             <p className="tracking-widest text-rose-700 group-hover:text-rose-900">AI 编程工具</p>
           </div>
-          <div className="flex w-full h-10 items-center gap-4 cursor-pointer px-4 py-2 rounded-lg hover:bg-white/30 transition-all group">
+          <div className="flex w-full h-10 items-center gap-4 cursor-pointer px-4 py-2 rounded-lg hover:bg-white/30 transition-all group" onClick={() => handleClick('AI绘画')}>
             <BrushIcon className="text-rose-500 group-hover:text-rose-700" />
             <p className="tracking-widest text-rose-700 group-hover:text-rose-900">AI 绘画</p>
           </div>
-          <div className="flex w-full h-10 items-center gap-4 cursor-pointer px-4 py-2 rounded-lg hover:bg-white/30 transition-all group">
+          <div className="flex w-full h-10 items-center gap-4 cursor-pointer px-4 py-2 rounded-lg hover:bg-white/30 transition-all group" onClick={() => handleClick('AI新闻')}>
             <AnnouncementIcon className="text-rose-500 group-hover:text-rose-700" />
             <p className="tracking-widest text-rose-700 group-hover:text-rose-900">AI 新闻</p>
           </div>
-          <div className="flex w-full h-10 items-center gap-4 cursor-pointer px-4 py-2 rounded-lg hover:bg-white/30 transition-all group">
+          <div className="flex w-full h-10 items-center gap-4 cursor-pointer px-4 py-2 rounded-lg hover:bg-white/30 transition-all group" onClick={() => handleClick('大模型API')}>
             <DeviceHubIcon className="text-rose-500 group-hover:text-rose-700" />
             <p className="tracking-widest text-rose-700 group-hover:text-rose-900">大模型 API</p>
           </div>
-          <div className="flex w-full h-10 items-center gap-4 cursor-pointer px-4 py-2 rounded-lg hover:bg-white/30 transition-all group">
+          <div className="flex w-full h-10 items-center gap-4 cursor-pointer px-4 py-2 rounded-lg hover:bg-white/30 transition-all group" onClick={() => handleClick('Agent工具')}>
             <PsychologyAltIcon className="text-rose-500 group-hover:text-rose-700" />
             <p className="tracking-widest text-rose-700 group-hover:text-rose-900">Agent 工具</p>
           </div>
